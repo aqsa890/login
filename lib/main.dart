@@ -118,6 +118,25 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 20, right: 17),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: [
+                          Text(
+                            'forget password?',
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: Colors.black,
+                            fontFamily: 'Rubik',
+                            fontWeight: FontWeight.w500,
+                            decoration: TextDecoration.underline,
+                            decorationColor: Colors.black,
+                          ),
+                          ),
+                        ],
+                      ),
+                    ),
                 SizedBox(height: 100),
                 Container(
                   height: 50,
